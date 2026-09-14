@@ -10,7 +10,6 @@
 <body>
 
 <?php
-// Przypisz zmiennej $a wartość swojego numeru z dziennika
 $a = 1;
 
 echo "Wartość zmiennej \$a: " . $a . "<br>";
