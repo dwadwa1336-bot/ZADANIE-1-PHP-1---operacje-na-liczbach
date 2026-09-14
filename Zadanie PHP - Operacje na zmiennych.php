@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Operacje matematyczne na zmiennej w PHP</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+<?php
+// Przypisz zmiennej $a wartość swojego numeru z dziennika
+$a = 1;
+
+echo "Wartość zmiennej \$a: " . $a . "<br>";
+echo "Liczba przeciwna do \$a: " . (-$a) . "<br>";
+echo "Zmienna \$a powiększona o 3: " . ($a + 3) . "<br>";
+echo "Zmienna \$a pomniejszona o 5: " . ($a - 5) . "<br>";
+echo "Zmienna \$a pomnożona przez 2: " . ($a * 2) . "<br>";
+echo "Zmienna \$a podzielona przez 5: " . ($a / 5) . "<br>";
+echo "Wartość reszty z dzielenia zmiennej \$a przez 2: " . ($a % 2) . "<br>";
+echo "Wartość zmiennej \$a podniesiona do 3 potęgi: " . pow($a, 3) . "<br>";
+echo "Wartość zmiennej \$a wynosi: $a i już się nie zmieni.<br>";
+?>
+
+</body>
+</html>
